@@ -1,5 +1,5 @@
 """
-orquestrador.py — Loop principal do robo NFS-e ADN (ON4).
+orquestrador.py — Loop principal do robo NFS-e ADN.
 
 Por empresa:
   1. Resolve e valida o certificado (arquivo nomeado na planilha, pasta unica).
@@ -159,7 +159,7 @@ def carregar_clientes(caminho_csv: str,
 def resolver_certificado(certificados_dir: str, cliente: Cliente) -> str:
     """
     Caminho do .pfx/.p12 da empresa, dentro da pasta unica de certificados.
-    Aceita o nome com ou sem extensao, e as duas extensoes usadas na ON4.
+    Aceita o nome com ou sem extensao, e as duas extensoes de certificado.
     """
     pasta = Path(certificados_dir)
     if not pasta.is_dir():

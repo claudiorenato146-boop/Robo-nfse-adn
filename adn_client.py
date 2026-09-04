@@ -1,8 +1,8 @@
 """
 adn_client.py - Cliente HTTP mTLS da API do ADN (NFS-e Nacional).
 
-Comportamento CONFIRMADO por execucao real em producao (20/08/2026, CNPJ da ON4,
-3050 documentos baixados, paginacao encerrada pela propria API):
+Comportamento CONFIRMADO por execucao real em producao (20/08/2026, 3050
+documentos baixados, paginacao encerrada pela propria API):
 
   - URL:  https://adn.nfse.gov.br/contribuintes/DFe/{NSU}?cnpjConsulta={CNPJ}&lote=true
   - O parametro e `cnpjConsulta` (conforme a Swagger oficial). Um prototipo

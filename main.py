@@ -1,5 +1,5 @@
 """
-main.py — Ponto de entrada do Robo NFS-e ADN (ON4 Contabilidade).
+main.py — Ponto de entrada do Robo NFS-e ADN.
 
 Uso:
     python main.py                        # pergunta a competencia, roda todas
