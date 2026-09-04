@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# --- Ambiente e segredos ---
+.env
+.env.local
+.env.*.local
+*.pfx
+*.p12
+*.pem
+*.key
+senha*.txt
+
+# --- Sistema e editor ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Dado real do escritorio ---
+# clientes.csv leva o cadastro da carteira. O modelo publicavel e
+# data/clientes.exemplo.csv.
+data/clientes.csv
+conferencia.csv
+relatorios/
+staging/
+logs/
+data/*.db
+data/*.db-*
+*.sqlite
+*.sqlite3

@@ -1,0 +1,13 @@
+# Robo NFS-e ADN
+# Instalar: pip install -r requirements.txt
+#
+# Versoes minimas escolhidas pela auditoria de 04/09/2026 (OSV.dev). As
+# anteriores (requests 2.32.3, urllib3 2.2.3, cryptography 43.0.3,
+# python-dotenv 1.0.1) somavam 15 vulnerabilidades conhecidas, sendo 7 HIGH.
+# A faixa superior existe para nao pegar um major novo sem revisao.
+
+requests>=2.33.0,<3
+urllib3>=2.7.0,<3
+python-dotenv>=1.2.2,<2
+cryptography>=49.0.0,<50
+openpyxl>=3.1.5,<4
